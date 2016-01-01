@@ -36,19 +36,6 @@ function loadBalanceProxy(request, response) {
   });
 }
 
-/*function estimate() {
-  var n = 10000000, inside = 0, i, x, y;
-
-  for (i = 0; i < n; i++) {
-    x = Math.random();
-    y = Math.random();
-    if (Math.sqrt(x * x + y * y) <= 1)
-      inside++;
-  }
-
-  return 4 * inside / n;
-}*/
-
 function serve(PORT) {
   var app = express();
   app.use(bodyParser.urlencoded({extended : true}));
