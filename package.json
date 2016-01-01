@@ -1,0 +1,15 @@
+{
+  "name": "loadbalance",
+  "version": "1.0.0",
+  "description": "Load Balancer",
+  "main": "loadbalancer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Parth Saxena",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "http-proxy": "^1.12.0"
+  }
+}
